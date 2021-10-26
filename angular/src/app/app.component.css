@@ -1,0 +1,68 @@
+mat-toolbar{
+    background: cornflowerblue;
+    color: white;
+}
+
+mat-sidenav{
+     margin-top: 16px;
+     margin-left: 10px ;
+     width: 230px;
+     border-right: none;
+     background-color: rgb(56, 53, 53);
+     color: white;
+     border-radius: 10px;
+     padding: 16px;
+     text-align: center;
+
+}
+
+mat-sidenav-container{
+    height: calc(100vh - 65px);
+    background-image: url(https://dreamastromeanings.com/wp-content/uploads/2018/11/Black-Dog-Dream-Meaning-and-Symbolism.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+mat-list-item:hover{
+    background: rgba(112, 120, 122, 0.308);
+    cursor: pointer;
+}
+
+ .content{
+     margin: 16px;
+     margin-left: 32px;
+ }
+
+ .anchor_class{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     text-decoration: none;
+     justify-content: flex-start;
+     font-size: 1rem;
+     color: rgba(247, 241, 241, 0.911);
+     margin-left: 20px;
+     
+ }
+
+ .avatar{
+     height: 180px;
+     width: 180px;
+     border-radius: 100px;
+ }
+
+ .name{
+     color: rgb(245, 234, 234);
+ }
+
+ mat-divider{
+     background-color: black;
+ }
+
+ h1{
+     margin-left: 250px;
+     font-size: 30px;
+     
+ }
+ .icon{
+     color: white;
+ }
